@@ -1,0 +1,8 @@
+RDMBS, nosql
+관계형 데이터베이스(rdbms)
+NOSPL
+ICBMS
+vs code
+1ive server
+ul>*
+!

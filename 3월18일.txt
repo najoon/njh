@@ -1,0 +1,40 @@
+1.git-bash : got hub와 프로젝트를 연동할때 사용하는 작은command도구, linux명령체계와 유사 윈도우에서 linux기본 명령을 연습할수 있다.=linux bourne shell
+
+- $ : prompt : 명력을 내리면 명령을 수행할 준비가 되었다 라는 표식
+- clear : 현재 화면의 메시지를 지우는 명령
+- 쉬프트 + insert : 붙여넣기
+- rm -rf .git : 해당폴더에 local repository 삭제
+---------------------------------------------------------
+2.윈도우 cmd : 윈도우에서 마우스를 사용하지 않고 키보드로 명령을 입력하여 여떤 기능을 수행할때 사용하는 도구
+---------------------------------------------------------
+3.Linux command shell : linux운영체제에서 키보드로 명령을 입력하여 어떤 기능을 수행할때 사용하는 명령 입력창(window)
+---------------------------------------------------------
+4.git hub 업로드
+
+1.업로드 폴더에서 git-bash 실행
+( git config --global user.name najoon
+git config --global user.email najoon : !git 새 컴퓨터 업로드시 한번만 하면됨 )
+2. git init : git local(해당 폴더에 .git 폴더가 생성됨) 저장소 설정(초기화, 신청)
+3.git hub 홈페이지에서! new repository 생성
+4. git remote add origin https://github.com/폴더위치/폴더.git(잘못 타이핑하면 처음부터 다시해야함, 복붙 권장)
+5.git add . : 현재폴더의 모든파일, 폴더를(.) 압축하여 .git 폴더에 저장해 달라
+6.git commit -m "제목"
+7. git push -u origin master : -u 를 붙여주면 origin master를 기억 다음부턴 git push만
+
+8. 업로드된 폴더는 5,6,7 만 입력하면됨
+-----------------------------------------------------------
+5. git 다운
+- git clone 코드주소(github code) : 내컴퓨터에 아무것도 없을때
+- git pull : 파일 동기화
+-------------------------------------------------------
+6. mark down(확장자 .md)
+# = <h태그> #개수에 따라 크기가 커짐
+* = 본문
+---------------------------------------------------------
+7. 이클립스 github 업로드
+
+1.git 업로드 예외 설정하기
+ -git-bash로 touch .gitignore
+ 입력 후 .gitigonore 파일 만들기.
+-.gitignore 파일을 editor 로 열기 업로드 예외 파일 리스트 작성(callor reference/gitignore) 후 저장
+2.이후는 동일
