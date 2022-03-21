@@ -1,0 +1,22 @@
+1.윈도우 관리자
+dir : 현재 폴더 목록
+cls : 명령어 지우기
+cd .. : 현재 폴더를 부모폴더로 바꾸기
+tad키 : 명령어 자동완성
+2.리눅스 관리자
+ls -al : 현재 폴더 목록
+cd .. : 현재 폴더를 부모폴더로 바꾸기
+* : 
+javac 파일 이름.확장자 :컴퓨터가 인식할수있는 class 파일로 변경
+
+3.코딩 문법(반드시 지켜야할 문법)
+카멜케이스-첫번째 글자는 대문자
+4.java eclipse
+-public class HelloKorea {}
+public : 누구나 사용
+class "" : class 이름
+/* */ : 저기 사이에 적은 글자는 주석
+{} : 문장은 중괄호에만 적는다
+public static void main(String[] args) : main+ctrl+space bar
+System.out.println(""); : sysout+ctrl+space bar
+package : com.callor.Hello (class를 패키지로 묶는다)
